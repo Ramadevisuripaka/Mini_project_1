@@ -158,3 +158,13 @@ RMSE = √(1/n Σ (y - ŷ)²)
 ---
 
 ## 🖥️ Project Structure
+## 🌐 Live Demo 🚀
+
+[![Open Live App](https://img.shields.io/badge/🚀%20Open%20Live%20App-blue?style=for-the-badge)](https://mini-project-1-2-a6sy.onrender.com)
+
+👉 Try the live Machine Learning application here:  
+https://mini-project-1-2-a6sy.onrender.com  
+
+✔ Enter house details  
+✔ Get real-time predictions  
+✔ Interactive UI with animations  
