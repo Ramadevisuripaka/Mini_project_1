@@ -1,76 +1,77 @@
-<!-- TOP BANNER -->
-<h1 align="center" style="color:#4facfe;">
-🏢 Viharatech Private Limited
-</h1>
+<!-- LOGO -->
+<p align="center">
+  <img src="static/vihara.jpeg" width="150"/>
+</p>
 
-<h3 align="center">
-💡 House Price Prediction using Machine Learning
-</h3>
+<h1 align="center">🏢 Viharatech Private Limited</h1>
+
+<h3 align="center">💡 House Price Prediction using Machine Learning</h3>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Machine%20Learning-Project-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/Machine%20Learning-MLR-blue?style=for-the-badge">
 <img src="https://img.shields.io/badge/Flask-WebApp-green?style=for-the-badge">
-<img src="https://img.shields.io/badge/Python-3.10-yellow?style=for-the-badge">
+<img src="https://img.shields.io/badge/Python-3.11-yellow?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
 </p>
 
 ---
 
 ## 👩‍💻 Developer Details
 
-| Name | Role | Email |
-|------|------|------|
-| **Suripaka Ramadevi** | Data Analyst & ML Engineer | ramadevisuripaka6@gmail.com |
+- **Name:** Suripaka Ramadevi  
+- **Role:** Data Analyst & ML Engineer  
+- **Email:** ramadevisuripaka6@gmail.com  
 
 ---
 
 ## 📌 Project Overview
 
-This project is a **House Price Prediction System** developed using **Multiple Linear Regression (MLR)**.
+This project is a **House Price Prediction System** built using **Multiple Linear Regression (MLR)**.
 
-It predicts the price of a house based on features like:
-- Bedrooms
-- Bathrooms
-- Square Foot Area
-- Location (City)
-- Year Built
+It predicts house prices based on:
+- Bedrooms 🛏️  
+- Bathrooms 🚿  
+- Square Foot Area 📐  
+- Location 🌍  
+- Year Built 🏗️  
 - And more...
 
 ---
 
 ## 🎯 Why This Project?
 
-In real estate, predicting house prices is very important for:
-- Buyers 🏠
-- Sellers 💰
-- Real estate companies 📊
+Real estate pricing is complex. This project helps:
+- Buyers make smart decisions  
+- Sellers set correct prices  
+- Companies analyze property trends  
 
-👉 This project helps in making **data-driven decisions** instead of guessing prices.
+👉 It converts **raw data → meaningful predictions**
 
 ---
 
 ## 🧠 What I Have Done
 
-✔ Collected and loaded dataset (`House.csv`)  
-✔ Performed data preprocessing  
-✔ Converted categorical data (city, country) into numerical  
-✔ Implemented **OOP-based ML model**  
-✔ Applied **Multiple Linear Regression**  
+✔ Data loading using Pandas  
+✔ Data preprocessing & cleaning  
+✔ Converted categorical data (city, country)  
+✔ Built ML model using OOP concepts  
+✔ Applied Linear Regression  
 ✔ Calculated:
 - R² Score (Accuracy)
 - RMSE (Error)
 
-✔ Built a **Flask Web Application**  
-✔ Designed a **User Interface (UI)** for predictions  
+✔ Built Flask Web App  
+✔ Designed UI with animations  
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🛠️ Tools & Technologies
 
 | Category | Tools |
 |--------|------|
-| Programming | Python 🐍 |
+| Language | Python 🐍 |
 | Libraries | NumPy, Pandas, Scikit-learn |
-| ML Model | Linear Regression |
+| Model | Linear Regression |
 | Backend | Flask |
 | Frontend | HTML, CSS |
 | IDE | PyCharm |
@@ -79,19 +80,30 @@ In real estate, predicting house prices is very important for:
 
 ## ⚙️ How It Works
 
-1. User enters house details in the UI  
-2. Data is sent to Flask backend  
-3. Trained ML model processes input  
-4. Prediction is generated  
-5. Result is displayed on screen  
+1. User enters house details  
+2. Data sent to Flask backend  
+3. ML model processes input  
+4. Prediction generated  
+5. Result displayed on UI  
 
 ---
 
 ## 📊 Model Performance
 
-- 📈 R² Score → Measures accuracy  
-- 📉 RMSE → Measures prediction error  
+| Metric | Value |
+|------|------|
+| Train Accuracy (R²) | 0.19 |
+| Train Loss (RMSE) | 541683 |
+| Test Accuracy (R²) | (Add your value) |
+| Test Loss (RMSE) | (Add your value) |
 
 ---
 
-## 🖥️ Project Structure
+## 📈 Visualization
+
+### 🔹 Accuracy Comparison
+
+```mermaid
+graph LR
+A[Train Accuracy] -->|0.19| B
+C[Test Accuracy] -->|0.XX| B
