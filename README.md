@@ -165,6 +165,4 @@ RMSE = √(1/n Σ (y - ŷ)²)
 👉 Try the live Machine Learning application here:  
 https://mini-project-1-2-a6sy.onrender.com  
 
-✔ Enter house details  
-✔ Get real-time predictions  
-✔ Interactive UI with animations  
+
