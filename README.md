@@ -1,82 +1,105 @@
----
+<!-- LOGO -->
+<p align="center">
+  <img src="static/vihara.jpeg" width="150"/>
+</p>
 
-## 📐 Mathematical Working of the Model
+<h1 align="center">🏢 Viharatech Private Limited</h1>
 
-### 🔹 Multiple Linear Regression Formula
+<h3 align="center">💡 House Price Prediction using Machine Learning</h3>
 
-:contentReference[oaicite:0]{index=0}
-
-Where:
-- \(y\) → Predicted house price  
-- \(x_1, x_2, ..., x_n\) → Input features (bedrooms, sqft, etc.)  
-- \(\beta_0\) → Intercept  
-- \(\beta_1, \beta_2, ..., \beta_n\) → Feature coefficients  
-
----
-
-## 🧠 How the Model Learns
-
-The model finds the best coefficients by minimizing error using:
-
-### 🔹 Cost Function (Mean Squared Error)
-
-:contentReference[oaicite:1]{index=1}
-
-👉 The goal is to **minimize this error** so predictions are close to actual values.
+<p align="center">
+<img src="https://img.shields.io/badge/Machine%20Learning-MLR-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/Flask-WebApp-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/Python-3.11-yellow?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
+</p>
 
 ---
 
-## ⚙️ Step-by-Step Working
+## 👩‍💻 Developer Details
 
-1. Load dataset (`House.csv`)  
-2. Split into:
-   - Training data (80%)  
-   - Testing data (20%)  
-
-3. Model learns:
-   - Relationship between inputs & price  
-   - Calculates coefficients  
-
-4. Prediction:
-   - New input → applied to equation  
-   - Output → predicted price  
+- **Name:** Suripaka Ramadevi  
+- **Role:** Data Analyst & ML Engineer  
+- **Email:** ramadevisuripaka6@gmail.com  
 
 ---
 
-## 📊 Model Evaluation Metrics
+## 📌 Project Overview
 
-### 🔹 R² Score (Accuracy)
+This project is a **House Price Prediction System** built using **Multiple Linear Regression (MLR)**.
 
-:contentReference[oaicite:2]{index=2}
-
-- Value ranges: **0 to 1**
-- Closer to **1 → better model**
-
----
-
-### 🔹 RMSE (Error)
-
-:contentReference[oaicite:3]{index=3}
-
-- Lower value → better predictions  
+It predicts house prices based on:
+- Bedrooms 🛏️  
+- Bathrooms 🚿  
+- Square Foot Area 📐  
+- Location 🌍  
+- Year Built 🏗️  
+- And more...
 
 ---
 
-## 📈 Model Performance Interpretation
+## 🎯 Why This Project?
 
-| Metric | Meaning |
-|------|--------|
-| Train Accuracy | How well model fits training data |
-| Test Accuracy | How well model generalizes |
-| RMSE | Average prediction error |
+Real estate pricing is complex. This project helps:
+- Buyers make smart decisions  
+- Sellers set correct prices  
+- Companies analyze property trends  
 
-👉 If:
-- Train accuracy high & Test low → Overfitting  
-- Both low → Underfitting  
+👉 It converts **raw data → meaningful predictions**
 
 ---
 
-## 📊 Visualization
+## 🧠 What I Have Done
+
+✔ Data loading using Pandas  
+✔ Data preprocessing & cleaning  
+✔ Converted categorical data (city, country)  
+✔ Built ML model using OOP concepts  
+✔ Applied Linear Regression  
+✔ Calculated:
+- R² Score (Accuracy)
+- RMSE (Error)
+
+✔ Built Flask Web App  
+✔ Designed UI with animations  
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Category | Tools |
+|--------|------|
+| Language | Python 🐍 |
+| Libraries | NumPy, Pandas, Scikit-learn |
+| Model | Linear Regression |
+| Backend | Flask |
+| Frontend | HTML, CSS |
+| IDE | PyCharm |
+
+---
+
+## ⚙️ How It Works
+
+1. User enters house details  
+2. Data sent to Flask backend  
+3. ML model processes input  
+4. Prediction generated  
+5. Result displayed on UI  
+
+---
+
+## 📊 Model Performance
+
+| Metric | Value |
+|------|------|
+| Train Accuracy (R²) | 0.19 |
+| Train Loss (RMSE) | 541683 |
+| Test Accuracy (R²) | (Add your value) |
+| Test Loss (RMSE) | (Add your value) |
+
+---
+
+## 📊 Model Performance Visualization
 
 ### 🔹 Accuracy Graph
 
@@ -90,26 +113,48 @@ The model finds the best coefficients by minimizing error using:
 
 ---
 
-## 🧪 Example Prediction (Manual Understanding)
+## 📐 Mathematical Working
 
-Example Input:
-- Bedrooms = 3  
-- Sqft = 1340  
-- City = Seattle  
+### 🔹 MLR Equation
 
-Model calculates:
+y = β₀ + β₁x₁ + β₂x₂ + ... + βₙxₙ
 
-\[
-Price = \beta_0 + \beta_1(3) + \beta_2(1340) + ...
-\]
-
-👉 Output: Predicted House Price  
+- y → Predicted price  
+- x → Features  
+- β → Coefficients  
 
 ---
 
-## 🎯 Key Insight
+### 🔹 Cost Function (MSE)
 
-This model transforms:
-👉 **Real-world housing features → mathematical equation → predicted price**
+MSE = (1/n) Σ (y - ŷ)²
+
+👉 Model tries to minimize this error
 
 ---
+
+### 🔹 R² Score
+
+R² = 1 - [ Σ(y - ŷ)² / Σ(y - ȳ)² ]
+
+👉 Closer to 1 → better model  
+
+---
+
+### 🔹 RMSE
+
+RMSE = √(1/n Σ (y - ŷ)²)
+
+👉 Lower → better performance  
+
+---
+
+## 🧠 Model Interpretation
+
+- High Train Accuracy + Low Test Accuracy → Overfitting  
+- Low Train & Test Accuracy → Underfitting  
+- Balanced values → Good model  
+
+---
+
+## 🖥️ Project Structure
