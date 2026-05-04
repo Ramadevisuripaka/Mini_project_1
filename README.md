@@ -98,7 +98,17 @@ Real estate pricing is complex. This project helps:
 | Test Loss (RMSE) | (Add your value) |
 
 ---
+## 📊 Model Performance Visualization
 
+### 🔹 Accuracy Graph
+
+![Accuracy Graph](static/accuracy.png)
+
+---
+
+### 🔹 Loss Graph
+
+![Loss Graph](static/loss.png)
 ## 📈 Visualization
 
 ### 🔹 Accuracy Comparison
